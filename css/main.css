@@ -310,5 +310,181 @@ body {
     }
 }
 
+.integrations {
+    background-color: #ffffff;
+    padding: 80px 0;
+    color: #000000;
+}
+
+.integrations h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.integration-subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #6b7280;
+    margin-bottom: 40px;
+    margin-top: -20px;
+}
+
+.integration-circle {
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(to right, #e879f9, #818cf8) border-box;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.moving-pills {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pill-row {
+    display: flex;
+    animation: moveLeftToRight 10s linear infinite;
+    white-space: nowrap;
+}
+
+.pill {
+    background-color: #f3f4f6;
+    border: 1px solid #e5e7eb;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    color: #374151;
+    margin-right: 15px;
+}
+
+.pill:hover {
+    background-color: #e5e7eb;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.fixed-row {
+    animation: none;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.fixed-pill {
+    /* position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%); */
+    /* animation: none !important; */
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.fixed-pill:hover {
+    background-color: #e5e7eb;
+}
+
+@keyframes moveLeftToRight {
+    0% {
+        transform: translateX();
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+} 
+
+/* Alternating colors for pills */
+.pill:nth-child(7n+1) { border-color: #8b5cf6; }
+.pill:nth-child(7n+2) { border-color: #fbbf24; }
+.pill:nth-child(7n+3) { border-color: #ef4444; }
+.pill:nth-child(7n+4) { border-color: #10b981; }
+.pill:nth-child(7n+5) { border-color: #3b82f6; }
+.pill:nth-child(7n+6) { border-color: #8b5cf6; }
+.pill:nth-child(7n) { border-color: #fbbf24; }
+
+@media (max-width: 768px) {
+    .integration-circle {
+        padding: 30px;
+    }
+    
+    .pill {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+}
+
+.newsletter {
+    background-color: #f9fafb;
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .newsletter::before,
+  .newsletter::after {
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgba(59, 130, 246, 0.1);
+    z-index: 0;
+  }
+  
+  .newsletter::before {
+    top: -150px;
+    left: -150px;
+  }
+  
+  .newsletter::after {
+    bottom: -150px;
+    right: -150px;
+  }
+  
+  .newsletter .container {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  .newsletter h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #111827;
+  }
+  
+  .newsletter p {
+    font-size: 18px;
+    color: #6b7280;
+    margin-bottom: 30px;
+  }
+  
+  .subscribe-button {
+    display: inline-block;
+    background-color: #111827;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #1f2937;
+  }
 
 /* ... (other styles) ... */
