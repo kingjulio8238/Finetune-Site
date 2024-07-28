@@ -247,7 +247,8 @@ body {
 }
 
 .how-it-works {
-    padding: 80px 0;
+    background-color: #f0f2f5;
+    padding: 80px 20px 0;
 }
 
 .how-it-works-content {
@@ -256,13 +257,19 @@ body {
     justify-content: space-between;
 }
 
-.animation-container {
-    width: 50%;
-    max-width: 500px;
+.image-container {
+    width: 60%; /* Increased from 50% to 60% */
+    max-width: 600px; /* Increased from 500px to 600px */
+    margin-left: 10px;
+}
+
+.memary-logo {
+    width: 100%;
+    height: auto;
 }
 
 .how-it-works-text {
-    width: 45%;
+    width: 44%;
 }
 
 .how-it-works h2 {
@@ -272,7 +279,7 @@ body {
 }
 
 .how-it-works p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.6;
     margin-bottom: 20px;
 }
@@ -283,20 +290,25 @@ body {
     font-weight: bold;
 }
 
+.learn-more:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 768px) {
     .how-it-works-content {
         flex-direction: column;
     }
 
-    .animation-container,
+    .image-container,
     .how-it-works-text {
         width: 100%;
-        max-width: 100%;
+        max-width: 100px;
     }
 
-    .animation-container {
+    .image-container {
         margin-bottom: 40px;
     }
 }
+
 
 /* ... (other styles) ... */
