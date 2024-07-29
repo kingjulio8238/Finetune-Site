@@ -359,7 +359,7 @@ body {
   }
 } */
 
-@media (max-width: 768px) {
+@media (max-width: 1290px) {
   .solutions {
     padding: 60px 20px; /* Add horizontal padding to the entire section */
   }
