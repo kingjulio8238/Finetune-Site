@@ -431,51 +431,24 @@ body {
     padding: 80px 20px 0;
 }
 
-@media (max-width: 1290px) {
-  .how-it-works {
-    padding: 40px 20px;
-  }
+.how-it-works h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  /* text-align: center; */
+}
 
-  .how-it-works-content {
-    flex-direction: column;
-    align-items: center;
-  }
+.how-it-works p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  white-space: normal;
+  word-wrap: break-word;
+}
 
-  .how-it-works-text {
-    width: 100%;
-    max-width: 600px;
-    text-align: left;
-    padding: 0 20px;
-  }
-
-  .how-it-works h2 {
-    font-size: 32px;
-    margin-bottom: 15px;
-    text-align: center;
-  }
-
-  .how-it-works p {
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 15px;
-  }
-
-  .learn-more {
-    display: inline-block;
-    margin-top: 20px;
-  }
-
-  .image-container {
-    width: 100%;
-    max-width: 400px;
-    margin-top: 30px;
-    text-align: center;
-  }
-
-  .memary-logo {
-    max-width: 100%;
-    height: auto;
-  }
+.learn-more {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 14px;
 }
 
 .how-it-works-content {
@@ -522,19 +495,30 @@ body {
 }
 
 @media (max-width: 768px) {
-    .how-it-works-content {
-        flex-direction: column;
-    }
+  .how-it-works {
+    padding: 30px 20px;
+  }
 
-    .image-container,
-    .how-it-works-text {
-        width: 100%;
-        max-width: 100px;
-    }
+  .how-it-works-content {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .image-container {
-        margin-bottom: 40px;
-    }
+  .image-container {
+    width: 100%;
+    max-width: 100px;
+    margin: 0 auto 20px;
+  }
+
+  .finetune-logo {
+    width: 100%;
+    height: auto;
+  }
+
+  .how-it-works-text {
+    width: 100%;
+    text-align: left;
+  }
 }
 
 .integrations {
