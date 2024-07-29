@@ -444,12 +444,14 @@ body {
   .how-it-works-text {
     width: 100%;
     max-width: 600px;
-    text-align: center;
+    text-align: left;
+    padding: 0 20px;
   }
 
   .how-it-works h2 {
     font-size: 32px;
     margin-bottom: 15px;
+    text-align: center;
   }
 
   .how-it-works p {
@@ -467,6 +469,12 @@ body {
     width: 100%;
     max-width: 400px;
     margin-top: 30px;
+    text-align: center;
+  }
+
+  .memary-logo {
+    max-width: 100%;
+    height: auto;
   }
 }
 
