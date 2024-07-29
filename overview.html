@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finetune - Overview</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        body {
+            background-color: white;
+            color: #333;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        .overview-container {
+            /* max-width: 800px; */
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .overview-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .overview-title {
+            font-size: 48px;
+            color: #3b82f6;
+            margin-bottom: 10px;
+        }
+        .overview-subtitle {
+            font-size: 24px;
+            color: #6b7280;
+        }
+        .overview-content {
+            background-color: #f3f4f6;
+            border-radius: 8px;
+            padding: 40px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            font-size: 18px;
+        }
+        .overview-section {
+            margin-bottom: 40px;
+        }
+        .overview-date {
+            font-size: 16px;
+            color: #6b7280;
+            margin-bottom: 10px;
+        }
+        .overview-emphasis {
+            font-weight: bold;
+            color: #3b82f6;
+        }
+    </style>
+</head>
+<body>
+    <div class="overview-container">
+        <header class="overview-header">
+            <h1 class="overview-title">Finetune Overview</h1>
+            <p class="overview-subtitle">Fine-tuning AI Agents</p>
+        </header>
+        <div class="overview-content">
+            <div class="overview-section">
+                <p class="overview-date">July 2024</p>
+                <p>Recent advancements in AI agents have resulted in workflow automation across various industries. At Finetune, we envision that this trend will continue, and within the next decade, there will be <span class="overview-emphasis">more AI agents than humans</span>.</p>
+            </div>
+            <div class="overview-section">
+                <p>Finetune is the <span class="overview-emphasis">easiest way for developers to fine-tune AI agents</span>. Llama Index, Crew AI, Langchain, Autogen, Haystack, and other agent frameworks will all be supported. Nvidia NIMs, Anthropic, Open AI, Mistral, and more models will be integrated from day 0.</p>
+            </div>
+            <div class="overview-section">
+                <p>Developers can enter a <span class="overview-emphasis">fine-tuning session</span> to create synthetic users that reflect their customers, run their agent against these users, receive session reports and a <span class="overview-emphasis">weighted execution graph</span> available in a Virtual Private Cloud (VPC). After each run, Finetune will judge the execution and add relevant weights depending on the outcome and store them in the graph.</p>
+            </div>
+            <div class="overview-section">
+                <p>From there, developers can enter a <span class="overview-emphasis">feedback session</span>. Finetune's agent will be able to identify which executions received a low/bad weight during the fine-tuning session and present these to the developer for feedback. Finetune uses this feedback to update the weighted execution graph.</p>
+            </div>
+            <div class="overview-section">
+                <p>Finetune will also allow developers to easily <span class="overview-emphasis">deploy</span> their execution graph to a VPC with root access to perform CRUD operations while running their agents in production. Each time their agent runs, the first step is to reference the weighted execution graph to retrieve similar executions with positive weights as context for the model to generate the subsequent action lists.</p>
+            </div>
+            <div class="overview-section">
+                <p>We expect Finetune to be the SOTA service to make agents that cover <span class="overview-emphasis">enterprise-level chains</span> reliable in production.</p>
+            </div>
+            <div class="overview-section">
+                <p>The Finetine Team 🦙🦾</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
