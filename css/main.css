@@ -686,7 +686,8 @@ body {
     width: 90%;
     max-width: 400px;
     margin: 0 auto;
-    padding: 30px 20px;
+    padding: 15px 15px 15px 15px;
+    
   }
   
   .newsletter h2 {
