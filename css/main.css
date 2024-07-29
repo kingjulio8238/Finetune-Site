@@ -523,7 +523,7 @@ body {
 
 .integrations {
     background-color: #ffffff;
-    padding: 80px 0;
+    padding: 20px 0 60px 0;
     color: #000000;
 }
 
@@ -667,8 +667,6 @@ body {
     backdrop-filter: blur(10px);
     margin: 0 auto;
   }
-  
-
 
 .newsletter h2 {
     font-size: 36px;
@@ -681,6 +679,23 @@ body {
     font-size: 17px;
     color: #6b7280;
     margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .newsletter .container {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px 20px;
+  }
+  
+  .newsletter h2 {
+    font-size: 24px;
+  }
+  
+  .newsletter p {
+    font-size: 14px;
+  }
 }
 
 .subscribe-button {
@@ -903,5 +918,20 @@ body {
       position: static;
       margin-top: 20px;
       margin-left: 20px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .footer-column {
+      margin-bottom: 20px;
+    }
+    
+    .footer-heading {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    
+    .footer-column ul li {
+      margin-bottom: 5px;
     }
   }
