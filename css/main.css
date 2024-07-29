@@ -748,9 +748,9 @@ body {
 
   .footer-llama {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
-    width: 175px; /* Adjust size as needed */
+    bottom: 20px;
+    left: 20px;
+    width: 75px; /* Adjust size as needed */
     height: auto;
   }
   
