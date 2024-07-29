@@ -431,6 +431,45 @@ body {
     padding: 80px 20px 0;
 }
 
+@media (max-width: 1290px) {
+  .how-it-works {
+    padding: 40px 20px;
+  }
+
+  .how-it-works-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .how-it-works-text {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+
+  .how-it-works h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+
+  .how-it-works p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+
+  .learn-more {
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  .image-container {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 30px;
+  }
+}
+
 .how-it-works-content {
     display: flex;
     align-items: center;
