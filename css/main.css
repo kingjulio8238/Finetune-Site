@@ -567,6 +567,42 @@ body {
     white-space: nowrap;
 }
 
+/* mobile animation - start */
+@keyframes moveLeftToRight {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 768px) {
+  .moving-pills {
+      overflow: hidden;
+  }
+
+  .pill-row {
+      display: inline-flex;
+      animation: moveLeftToRight 20s linear infinite;
+  }
+
+  .pill-row:nth-child(2) {
+      animation-delay: -10s;
+  }
+
+  @keyframes moveLeftToRight {
+      0% {
+          transform: translateX(100%);
+      }
+      100% {
+          transform: translateX(-100%);
+      }
+  }
+}
+
+/* mobile animation - end */
+
 .pill {
     background-color: #f3f4f6;
     border: 1px solid #e5e7eb;
