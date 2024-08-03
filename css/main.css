@@ -33,11 +33,13 @@ body {
 .button-border-rect { fill: none; stroke: #3b82f6; stroke-width: 2; stroke-dasharray: 20 180; stroke-dashoffset: 0; stroke-linecap: round; }
 
 .title {
+    margin-top: 100px;
     font-size: 84px;
     font-weight: 900;
     margin-bottom: 30px;
     line-height: 1.1;
     letter-spacing: -1px;
+    
 }
 
 .title-black {
@@ -428,7 +430,7 @@ body {
 
 .how-it-works {
     background-color: white;
-    padding: 80px 20px 0;
+    padding: 80px 20px 50px 0;
 }
 
 .how-it-works h2 {
@@ -455,16 +457,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 20px;
 }
 
 .image-container {
-    width: 60%; /* Increased from 50% to 60% */
-    max-width: 600px; /* Increased from 500px to 600px */
-    margin-left: 10px;
+    width: 40%; /* Increased from 50% to 60% */
+    max-width: 800px; /* Increased from 500px to 600px */
 }
 
-.memary-logo {
-    width: 100%;
+.finetune-logo {
+    width: 150%;
     height: auto;
 }
 
@@ -590,6 +592,7 @@ body {
   .pill-row:hover {
       animation-play-state: paused;
   }
+
 }
 
 /* mobile animation - end */
@@ -658,6 +661,10 @@ body {
     .pill {
         font-size: 12px;
         padding: 8px 16px;
+    }
+
+    .fixed-pill {
+      align-content: center;
     }
 }
 

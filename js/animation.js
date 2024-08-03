@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         buttonBorder.style.strokeDasharray = `20 ${buttonPerimeter - 20}`;
         
         let offset = 0;
-        const animationDuration = 3500; // 3.5 seconds for a full rotation
+        const animationDuration = 6000; // 8 seconds for a full rotation
         
         function animateButton(timestamp) {
             if (!animateButton.startTime) {
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         { transform: 'translateX(-50%)' }
                     ],
                     {
-                        duration: 3000, // Keep the same 10-second duration
+                        duration: 6000, // Keep the same 10-second duration
                         iterations: Infinity,
                         easing: 'linear'
                     }
