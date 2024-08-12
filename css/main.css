@@ -506,15 +506,28 @@ body {
     align-items: center;
   }
 
-  .image-container {
+  /* .image-container {
+    align-items: center;
     width: 100%;
     max-width: 100px;
     margin: 0 auto 20px;
   }
 
   .finetune-logo {
-    width: 100%;
+    width: 200%;
     height: auto;
+    margin: 0 auto;
+  } */
+  .image-container {
+    text-align: center;
+    max-width: none;
+    width: 100%;
+  }
+
+  .finetune-logo {
+    width: auto;
+    max-width: 250px;
+    margin: 0 auto;
   }
 
   .how-it-works-text {
@@ -666,7 +679,8 @@ body {
     .fixed-pill {
       align-content: center;
     }
-}
+} 
+
 
 @keyframes gradient {
     0% {
