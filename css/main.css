@@ -146,6 +146,56 @@ body {
     }
 }
 
+.video-section {
+  background-color: #f0f2f5;
+  padding: 40px 0;
+  text-align: center;
+}
+
+/* .video-title {
+  font-size: 32px;
+  color: #4b5563;
+  margin-bottom: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.4;
+  text-align: center;
+} */
+
+.video-section .subtitle {
+  margin-bottom: 20px;
+}
+
+.video-container {
+  max-width: 800px;  
+  margin: 0 auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.video-container:hover {
+  transform: translateY(-5px);
+}
+
+.video-thumbnail {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .video-section {
+    padding: 30px 20px;
+  }
+
+  .video-container {
+    max-width: 90%;
+  }
+}
+
 .solutions {
     background: linear-gradient(-45deg, #f0f2f5, #e5e7eb, #bfdbfe, #3b82f6);
     background-size: 400% 400%;
